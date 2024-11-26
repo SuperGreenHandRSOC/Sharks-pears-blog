@@ -1,4 +1,4 @@
-import Container from "@/app/_components/container";
+import Container from "@/app/_ui/container";
 import { Intro } from "@/app/_ui/intro";
 import { MoreStories } from "@/app/_ui/more-stories";
 import { getAllPosts } from "@/lib/api";

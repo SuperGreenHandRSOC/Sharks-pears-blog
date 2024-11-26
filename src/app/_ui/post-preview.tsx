@@ -1,5 +1,5 @@
 import Link from "next/link";
-import CoverImage from "../_components/cover-image";
+import CoverImage from "./cover-image";
 import DateFormatter from "./date-formatter";
 import { PostTagList } from "./post-tags";
 

@@ -1,4 +1,4 @@
-import CoverImage from "../_components/cover-image";
+import CoverImage from "./cover-image";
 import DateFormatter from "./date-formatter";
 import { PostTitle } from "@/app/_ui/post-title";
 import { PostTagList } from "./post-tags";

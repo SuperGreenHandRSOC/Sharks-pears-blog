@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/lib/api";
 import { CMS_NAME } from "@/lib/constants";
-import Container from "@/app/_components/container";
+import Container from "@/app/_ui/container";
 import { PostBody } from "@/app/_ui/post-body";
 import { PostHeader } from "@/app/_ui/post-header";
 import {extractHeadings} from 'extract-md-headings'
