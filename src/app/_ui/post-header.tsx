@@ -21,7 +21,7 @@ export function PostHeader({ title, coverImage, date, tags }: Props) {
         <CoverImage title={title} src={coverImage} />
       </div>
       <PostTitle>{title}</PostTitle>
-      <PostTagList tags={tags} />
+      <PostTagList tags={tags} className=""/>
       <div className="text-center lg:text-left mb-8">
         <DateFormatter dateString={date} />
       </div></div>
