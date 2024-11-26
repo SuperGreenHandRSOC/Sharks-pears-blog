@@ -1,7 +1,6 @@
 import { CMS_NAME } from "@/lib/constants";
 import Image from 'next/image';
 import { avator, name, quouo } from "./infos"
-import Search from './search'
 
 export function Intro() {
   return (
