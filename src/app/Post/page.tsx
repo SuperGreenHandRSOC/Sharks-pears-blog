@@ -19,6 +19,10 @@ export default async function Index({
     var key = query[0];
   else
     var key = query;
+  if (typeof(filter) != 'string')
+    var fit = filter;
+  else
+    var fit = [filter];
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-12">
@@ -29,7 +33,7 @@ export default async function Index({
           <div className="w-2/5"><Search placeholder="Search articles, title only..."/></div>
           <TagFileter />
         </div>
-        {morePosts.length > 0 && <MoreStories posts={morePosts} searchKey={key} filter={filter}/>}
+        {morePosts.length > 0 && <MoreStories posts={morePosts} searchKey={key} filter={fit}/>}
       </Container>
     </div></main>
   );
