@@ -45,7 +45,7 @@ export default function Toc({className}:{className:string}) {
 			scrollSmooth: true,
 			scrollSmoothDuration: 420,
 			scrollSmoothOffset: -10,
-      hasInnerContainers: true,
+      		hasInnerContainers: true,
 		});
     
 
