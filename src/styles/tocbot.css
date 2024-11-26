@@ -1,0 +1,38 @@
+.toc-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.toc-list-item {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+	transition: colors 0.3s;
+}
+
+.toc-link {
+	display: block;
+	width: 100%;
+	color: #71717a; /* zinc-500 */
+	margin-bottom: 8px;
+}
+
+.toc-link:hover {
+	color: #141415; /* zinc-700 */
+}
+
+.dark .toc-link:hover {
+	color: #56565e; /* dark:zinc-400 */
+}
+
+/* .is-active-li > .toc-link {
+	@apply text-slate-400
+}
+
+.dark .is-active-li > .toc-link {
+	@apply text-slate-300
+} */
+
+.toc-list .toc-list {
+	padding-left: 1rem;
+}

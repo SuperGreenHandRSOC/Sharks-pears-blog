@@ -1,0 +1,3 @@
+.quiz{
+  @apply bg-black hover:bg-transparent transition-all duration-150
+}
