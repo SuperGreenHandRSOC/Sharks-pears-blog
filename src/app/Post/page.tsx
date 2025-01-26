@@ -26,10 +26,10 @@ export default async function Index({
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-12">
-      <div className="justify-center lg:w-4/5 lg:mt-20">
+      <div className="justify-center lg:w-3/5 lg:mt-20">
       <Container>
         <Intro />
-        <div className="invisible mb-1 pb-0 lg:pb-5 lg:mb-8 lg:visible flex justify-between">
+        <div className="invisible h-5 mb-1 pb-0 lg:h-auto lg:pb-5 lg:mb-8 lg:visible flex justify-between">
           <div className="w-2/5"><Search placeholder="Search articles, title only..."/></div>
           <TagFileter />
         </div>

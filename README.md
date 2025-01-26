@@ -6,10 +6,11 @@ Have learnt a lot from: [lucky-snail](https://github.com/coderPerseus/blog)
 ## Under construction
 
 - [ ] 主题切换
-- [ ] Project页面
-- [ ] About页面（先有了Project再说吧）
+- [ ] Project页面（先有了Project再说吧）
+- [ ] About页面
 - [ ] 友链
-- [ ] 404, Loading页面
+- [ ] 404页面
+- [ ] Loading页面
 - [ ] 项目/网站元信息
 - [ ] 文章页更多功能
   - [ ] Callout
@@ -18,4 +19,6 @@ Have learnt a lot from: [lucky-snail](https://github.com/coderPerseus/blog)
   - [ ] style
   - [ ] 代码复制按钮
   - [ ] toc完善
+  - [ ] 方便上传
 - [ ] 架构、规范、性能优化
+- [ ] 访问数与IP追踪

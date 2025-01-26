@@ -23,7 +23,7 @@ export default function TagFilter() {
     const isChecked = searchParams?.getAll("filter").includes(value);
 
     return (
-      <div className="bg-slate-300 px-1 m-2 relative flex w-14 h-9 rounded-lg hover:rotate-6 transition-all duration-200">
+      <div className="bg-slate-300 px-1 m-1 relative flex w-14 h-9 rounded-lg hover:rotate-6 transition-all duration-200">
         <input
           type="checkbox"
           value={value}

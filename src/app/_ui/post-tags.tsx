@@ -17,9 +17,9 @@ export function PostTag({className, href, children}:{className:string, href:stri
 export function PostTagList({tags, className}: {tags:string[], className:string}){
     return (
         <>
-            {tags.length > 0 && <div className={`flex justify-center lg:justify-start ${className}`}>
+            {tags.length > 0 && <div className={`flex justify-start ${className}`}>
                 {tags.map((tag)=>(
-                    <PostTag key={tag} className="mr-5 mb-1" href="" children={tag} />
+                    <PostTag key={tag} className="mr-5 my-auto" href="" children={tag} />
                 ))}
             </div>}
         </>
